@@ -25,7 +25,7 @@
 #import <Photos/Photos.h>
 
 
-@interface RNFSManager()
+@interface RNFSFSManager()
 
 @property (retain) NSMutableDictionary* downloaders;
 @property (retain) NSMutableDictionary* uuids;
@@ -33,7 +33,7 @@
 
 @end
 
-@implementation RNFSManager
+@implementation RNFSFSManager
 
 static NSMutableDictionary *completionHandlers;
 
