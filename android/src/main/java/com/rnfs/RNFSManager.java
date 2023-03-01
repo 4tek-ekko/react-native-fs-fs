@@ -39,10 +39,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-@ReactModule(name = RNFSManager.MODULE_NAME)
-public class RNFSManager extends ReactContextBaseJavaModule {
+@ReactModule(name = RNFSFSManager.MODULE_NAME)
+public class RNFSFSManager extends ReactContextBaseJavaModule {
 
-  static final String MODULE_NAME = "RNFSManager";
+  static final String MODULE_NAME = "RNFSFSManager";
 
   private static final String RNFSDocumentDirectoryPath = "RNFSDocumentDirectoryPath";
   private static final String RNFSExternalDirectoryPath = "RNFSExternalDirectoryPath";
@@ -62,7 +62,7 @@ public class RNFSManager extends ReactContextBaseJavaModule {
 
   private ReactApplicationContext reactContext;
 
-  public RNFSManager(ReactApplicationContext reactContext) {
+  public RNFSFSManager(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
   }

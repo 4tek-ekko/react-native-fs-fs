@@ -13,7 +13,7 @@ public class RNFSPackage implements ReactPackage {
   @Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
     List<NativeModule> modules = new ArrayList<>();
-    modules.add(new RNFSManager(reactContext));
+    modules.add(new RNFSFSManager(reactContext));
     return modules;
   }
 
