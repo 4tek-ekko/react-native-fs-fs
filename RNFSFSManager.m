@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Johannes Lumpe. All rights reserved.
 //
 
-#import "RNFSManager.h"
+#import "RNFSFSManager.h"
 
 #import "NSArray+Map.h"
 #import "Downloader.h"
